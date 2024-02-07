@@ -6,7 +6,7 @@ library(tidyverse)
 ```{r}
 ggplot(diamonds, aes(x = carat, y = price)) +
   geom_point(aes(color = clarity))+
-  labs(x = "carrot", y = "banana", color = "apple")
+  labs(x = "carrot", y = "banana", color = "apples")
 
 ```
 
