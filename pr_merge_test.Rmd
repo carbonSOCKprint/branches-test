@@ -4,7 +4,7 @@ library(tidyverse)
 ```
 
 ```{r}
-ggplot(diamonds, aes(x = carat, y = price)) +
+ggplot(diamonds, aes(x = carat, y = price, fill = clarity)) +
   geom_point(aes(color = clarity))
 
 ```
