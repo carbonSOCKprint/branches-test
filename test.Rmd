@@ -6,13 +6,19 @@ date: "2024-02-07"
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
 ```
+
+
+
 
 ```{r}
 library(tidyverse)
 ```
 
 ```{r}
+
+
 #member 1 
 ggplot(starwars, aes(x = sex, 
                   fill = species)) +
@@ -27,7 +33,12 @@ starwars %>%
 ```
 
 ```{r}
+
 #member 3
+
+starwars %>% 
+  ggplot(aes(x = height, y = sex))+
+  geom_point()
 ```
 
 ```{r}
