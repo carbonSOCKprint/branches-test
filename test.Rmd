@@ -21,6 +21,9 @@ ggplot(starwars, aes(x = sex,
 
 ```{r}
 #member 2
+# member 2 (LINUS GHANADAN)
+starwars %>%
+  filter(homeworld == "Endor")
 ```
 
 ```{r}
@@ -28,6 +31,6 @@ ggplot(starwars, aes(x = sex,
 ```
 
 ```{r}
-#member 4
+
 ```
 
