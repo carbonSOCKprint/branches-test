@@ -6,8 +6,13 @@ date: "2024-02-07"
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
 library(tidyverse)
 ```
+
 
 
 
@@ -16,6 +21,13 @@ library(tidyverse)
 library(tidyverse)
 ```
 
+
+```{r}
+#member 4
+starwars %>% 
+  ggplot(aes(x = birth_year, y = height)) +
+  geom_point()
+```
 ```{r}
 
 
