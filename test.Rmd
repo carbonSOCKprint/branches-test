@@ -11,11 +11,23 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 library(tidyverse)
 ```
+
 ```{r}
 #member 1 
+ggplot(starwars, aes(x = sex, 
+                  fill = species)) +
+  geom_bar()
+```
 
+```{r}
 #member 2
+```
 
+```{r}
 #member 3
+```
+
+```{r}
+#member 4
 ```
 
