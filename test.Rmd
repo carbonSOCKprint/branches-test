@@ -6,7 +6,16 @@ date: "2024-02-07"
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
 ```
+
+
+library(tidyverse)
+```
+
+
+
+
 
 ```{r}
 library(tidyverse)
@@ -19,3 +28,32 @@ starwars %>%
   ggplot(aes(x = birth_year, y = height)) +
   geom_point()
 ```
+```{r}
+
+
+#member 1 
+ggplot(starwars, aes(x = sex, 
+                  fill = species)) +
+  geom_bar()
+```
+
+```{r}
+#member 2
+# member 2 (LINUS GHANADAN)
+starwars %>%
+  filter(homeworld == "Endor")
+```
+
+```{r}
+
+#member 3
+
+starwars %>% 
+  ggplot(aes(x = height, y = sex))+
+  geom_point()
+```
+
+```{r}
+
+```
+
