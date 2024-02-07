@@ -5,7 +5,8 @@ library(tidyverse)
 
 ```{r}
 ggplot(diamonds, aes(x = carat, y = price)) +
-  geom_point(aes(color = clarity))
+  geom_point(aes(color = clarity)) + ggtitle("the best title in the world")
 
 ```
+
 
